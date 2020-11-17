@@ -1,0 +1,296 @@
+ /* основные цвета */
+/* основной цвет текста #212121; */
+/* вторичный цвет текста #757575; */
+/* акцент цвет  #2196f3; */
+/* белый #ffffff */
+
+/* цвет фона  #E5E5E5; */
+/* цвет фона хедера #FFFFFF; */
+/* цвет фона футера #2F303A; */
+
+        /*цвет почта и телефон в футере  */
+/* rgba(255, 255, 255, 0.6); */
+/* цвет фона кнопки #F5F4FA */
+
+:root{
+        --primary-text-color:#757575;
+        --title-text-color:#212121;
+        --accent-color:#2196f3;
+        --accent-white-color: #ffffff;
+        --primary-bg-color: #ffffff;
+        --team-bg-color:  #F5F4FA;
+        --footer-bg-color: #2F303A;
+        --button-color: #F5F4FA;
+        --primary-font: Roboto, sans-serif;
+        --secondary-font: Raleway, sans-serif;
+}
+
+
+body {
+        background-color: var(--primary-bg-color); 
+        color: var(--primary-text-color);
+
+        font-family: var(--primary-font);
+        letter-spacing: 0.03em;
+        font-size: 14px;
+  }
+
+.list{
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+}
+.button {
+        display: inline-block;
+        border: 0px;
+        border-radius: 4px;
+        text-align: center;
+}
+
+
+/*  =================Хедер===================== */
+.logo{
+        color: var(--title-text-color);  
+        text-decoration: none;
+
+        font-family: var(--secondary-font);
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+}
+
+.logo .accent{
+        color: var(--accent-color);
+}
+.container {
+width: 1200px;
+outline: 2px solid red;
+
+}
+/* ===============навигация сайта==================  */
+
+.site-nav .link {
+        color: var(--title-text-color);
+}
+
+.contacts .link{
+        color: var(--primary-text-color);
+}
+
+
+.link:hover,
+.link:focus {
+        color: var(--accent-color);
+}
+
+.link {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+}
+.site-nav .link.current{
+        color: var(--accent-color);
+
+}
+/* =========================Герой =================*/
+.hero {
+        background-color: var(--footer-bg-color);
+        text-align: center;
+        margin-bottom: 94px;
+}
+.hero-title {
+        color: var(--accent-white-color);
+
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-align: center;     
+        text-transform: uppercase;
+
+        width: 698px;
+        margin-top: 0;
+        margin-bottom: 30px;
+}
+.hero .button{
+        color: var(--accent-white-color);
+        background-color: var(--accent-color);
+
+        font-family: inherit;
+        text-decoration: none;
+        letter-spacing: 0.06em;
+        font-size: 16px;
+        line-height: 1.875;
+
+        padding: 10px 32px;
+}
+/* =====================секции================ */
+/* .features,
+.activities,
+.employees{
+        list-style: none;
+} */
+
+.section-title{
+        color: var(--title-text-color);
+
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+
+        margin-top: 0px;
+        margin-bottom: 50px;
+        
+}
+
+/* =================Преимущества =================*/
+.features .title{
+        color: var(--title-text-color);
+
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+
+        margin-top: 0px;
+        margin-bottom: 10px;
+}
+.text {
+        line-height: 1.71;
+        margin: 0px;
+}
+.features.list {
+        margin-bottom: 94px;
+
+}
+/* ====================чем мы занимаемся=============== */
+
+.activities.list {
+        margin-bottom: 94px;
+}
+
+/* ========================Команда==================== */
+
+.team {
+background-color: var(--team-bg-color);
+padding-top: 94px;
+padding-bottom: 94px;
+}
+
+.team .employer-card {
+        background-color: var(--primary-bg-color);
+        padding-bottom: 30px;
+        
+}
+
+.employer-photo {
+        margin-bottom: 30px;
+
+}
+
+.employees .title{
+        color: var(--title-text-color);
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+
+        margin-top: 0px;
+        margin-bottom: 10px;
+}
+
+.position {
+        font-size: 16px;
+        line-height: 1.19;
+        margin: 0px;
+        text-align: center;
+
+}
+
+/* =======================футер======================= */
+.footer{
+        background-color: var(--footer-bg-color);
+        padding-bottom: 60px;
+        padding-top: 60px;
+}
+
+.footer-logo {
+        color: var(--accent-white-color);
+        text-decoration: none;
+
+        font-family: var(--secondary-font);
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+
+        margin-bottom: 20px;
+}
+.footer-logo .accent {
+        color: var(--accent-color)
+}
+.address-list {
+        color: var(--accent-white-color);
+        list-style: none;
+
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.71;
+}
+.address .link {
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+}
+
+/* =============================Портфолио========================== */
+.filter,
+.projects {
+        list-style: none;
+}
+
+.filter .button {
+        color: var(--title-text-color);
+        background-color: var(--button-color);
+
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+
+        padding: 6px 22px;
+}
+
+.filter .button:hover, 
+.filter .button:focus{
+        color:var(--accent-white-color) ;
+        background-color: var(--accent-color);
+}
+
+.projects .project-link {
+        text-decoration: none;
+        color: var(--primary-text-color);
+}
+
+.projects .title {
+        color: var(--title-text-color);
+
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+
+.projects .text{
+        font-size: 16px;
+        line-height: 1.9;
+        
+}
