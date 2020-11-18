@@ -50,6 +50,7 @@ body {
         width: 1200px;
         /* outline: 2px solid red; */
         padding: 0 15px;
+        justify-content: center;
         }
 
 /*  =================Хедер===================== */
@@ -76,9 +77,9 @@ body {
         justify-content: space-between;
         padding-top: 24px;
         padding-bottom: 24px;
-
+}
+.header {
         border-bottom: 1px solid #ECECEC;
-
 }
 .site-nav{
         display: flex;
@@ -396,7 +397,7 @@ letter-spacing: 0.03em;
         font-size: 16px;
         line-height: 1.9;
 
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
         
 }
 
@@ -404,6 +405,16 @@ letter-spacing: 0.03em;
 background-color: var(--primary-bg-color);
 border: 1px solid #EEEEEE;
 max-width: 370px;
+padding-bottom: 20px;
+
+
+display: flex;
+justify-content: center;
+
+}
+.projects-text {
+        margin-left: 24px;
+        margin-right: 24px;
 }
 .projects-item:not(:nth-child(3n)) {
         margin-right: 30px;
