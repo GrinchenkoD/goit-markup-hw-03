@@ -50,7 +50,7 @@ body {
         width: 1200px;
         /* outline: 2px solid red; */
         padding: 0 15px;
-        justify-content: center;
+        margin: 0 auto;
         }
 
 /*  =================Хедер===================== */
@@ -302,6 +302,7 @@ padding-bottom: 94px;
         font-size: 26px;
         line-height: 1.19;
 
+        display: block;
         margin-bottom: 20px;
 }
 .footer-logo .accent {
