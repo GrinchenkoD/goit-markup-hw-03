@@ -140,19 +140,27 @@ body {
 .contacts li+li {
         margin-left: 50px;
 }
+
 /* =========================Герой =================*/
 .hero {
         background-color: var(--footer-bg-color);
-        text-align: center;
-}
-.hero.container {
+        margin: 0 auto;
         padding-top: 200px;
         padding-bottom: 200px;
+
+        max-width: 1600px;
+        background-image: linear-gradient(
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),        
+        url(../images/background.jpg);
+}
+.hero-wrapper {
 
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        
 }
 .hero-title {
         color: var(--accent-white-color);
@@ -281,13 +289,13 @@ padding-bottom: 94px;
 .position {
         font-size: 16px;
         line-height: 1.19;
-        margin: 0px;
+        margin-bottom: 16px;
         text-align: center;
 }
 .employees.list{
         display: flex;
 }
-.employees.list li+li{
+.employees.list>li+li{
         margin-left: 30px;
 }
 
