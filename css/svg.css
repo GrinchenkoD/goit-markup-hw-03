@@ -85,14 +85,21 @@ background-size: cover;
 }
 
 /* ===============================Клиенты===================== */
-/* .clients-list {
+
+
+.clients-list {
 display: flex;
+align-items: center;
+justify-content: space-between;
 }
 
 .clients-item {
   display: flex;
   justify-content: center;
   align-items: center;
+  }
+.clients-iteam:not(:last-child){
+  margin-right: 30px;
 }
 
 
@@ -105,5 +112,8 @@ display: flex;
     align-items: center;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    fill: #AFB1B8; */
+    fill: #AFB1B8; 
+}
+.clients-icon{
+  /* display: block; */
 }

@@ -57,6 +57,10 @@ body {
         padding: 0 15px;
         margin: 0 auto;
         }
+.section {
+        padding-top: 94px;
+        padding-bottom: 94px;
+}
 
 /*  =================Хедер===================== */
 .logo{
@@ -193,7 +197,9 @@ body {
 .employees{
         list-style: none;
 } */
-
+.features.section{
+        padding-bottom: 0px;
+}
 .section-title{
         color: var(--title-text-color);
 
@@ -227,10 +233,10 @@ body {
         line-height: 1.71;
         margin: 0px;
 }
-.features {
+/* .features {
         padding-top: 94px;
-        padding-bottom: 94px;
-}
+        padding-bottom: 94px; 
+} */
 .features-list{
         display: flex;
         justify-content: center;
@@ -257,8 +263,9 @@ margin-left: 30px;
 
 .team {
 background-color: var(--team-bg-color);
-padding-top: 94px;
+/* padding-top: 94px;
 padding-bottom: 94px;
+*/
 }
 
 .team .employer-card {
@@ -342,10 +349,10 @@ letter-spacing: 0.03em;
 /* =============================Портфолио========================== */
 
 /* =============================фильтры====================== */
-.portfolio {
+/* .portfolio {
         padding-top: 94px;
         padding-bottom: 94px;
-}
+} */
 
 .filter {
         margin-bottom: 50px;
